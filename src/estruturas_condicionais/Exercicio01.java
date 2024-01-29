@@ -1,6 +1,6 @@
 package estruturas_condicionais;
 
-public class ExercicioCondicionais {
+public class Exercicio01 {
     public static void main(String[] args) {
         float salario = 22300f;
 
