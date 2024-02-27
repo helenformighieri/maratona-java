@@ -6,9 +6,9 @@ public class ImprimirDados {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
 
-        funcionario.nome = "João";
-        funcionario.idade = 28;
-        funcionario.salarios = new double[]{1500, 3500, 4783.0};
+        funcionario.setNome("João");
+        funcionario.setIdade(28);
+        funcionario.setSalarios(new double[]{1500, 3500, 4783.0});
 
         //System.out.println("Nome: " + funcionario.nome + "\nIdade: " + funcionario.idade + "\nSalario: " + funcionario.salario);
 
